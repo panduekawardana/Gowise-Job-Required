@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c40f53a-f325-43ca-97f7-df6ffab5a193" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/migrate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/relations/user.relations.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/schema/enums.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drizzle.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/drizzle.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/schema/user_profiles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/schema/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/schema/users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/enum.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +104,7 @@
       <workItem from="1779193222997" duration="4010000" />
       <workItem from="1779239328037" duration="1716000" />
       <workItem from="1779253312391" duration="8000" />
+      <workItem from="1779584902568" duration="1336000" />
     </task>
     <servers />
   </component>

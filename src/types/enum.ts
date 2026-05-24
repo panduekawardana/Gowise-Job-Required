@@ -12,5 +12,6 @@ export const applicationStatusEnum = pgEnum('application_status_enum', [
     'shortlisted',
     'interviewed',
     'rejected',
-    'hired'
+    'hired',
+    'submitted'
 ]);
