@@ -1,15 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Kalam:wght@300;400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
 }
 
 @theme inline {
+  /* COLORS */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  /* Primary Colors */
+  --color-primary: #016050;
+  --color-primary-foreground: #F6F6F6;
+
+  /* Secondary Colors */
+  --color-secondary: #E8B900;
+  --color-secondary-foreground: #252525;
+
+  /* Accent Colors */
+  --color-accent: #335EFF;
+  --color-accent-foreground: #F6F6F6;
+
+  /* Danger / Error */
+  --color-destructive: #FF0000;
+  --color-destructive-foreground: #F6F6F6;
+
+  /* Neutral Colors */
+  --color-background: #F6F6F6;
+  --color-foreground: #252525;
+
+  /* Surface / Card */
+  --color-card: #FFFFFF;
+  --color-card-foreground: #252525;
+
+  /* Border & Muted */
+  --color-border: #DCDCDC;
+  --color-muted: #EAEAEA;
+  --color-muted-foreground: #6B7280;
+
+  /* FONTS */
+  --font-cal-sans: 'Cal Sans', sans-serif;
+  --font-kalam: 'Kalam', cursive;
+  --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +55,11 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-primary-foreground);
+  color: var(--color-foreground);
+  font-family: var(--font-plus-jakarta);
+}
+
+.header {
+  @apply bg-background sticky top-0 z-50 border
 }
